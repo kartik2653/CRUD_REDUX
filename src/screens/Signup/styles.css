@@ -1,0 +1,53 @@
+.formOuterContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    
+}
+.signupFormContainer{
+    width: fit-content;
+    padding: 40px 50px;
+    margin: auto;
+    border-radius: 30px;
+    background: #e0e0e0;
+}
+
+.toggleSignup{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.toggleSignup > p:nth-child(2){
+    color: #024AA8;
+}
+
+.eyeContainer{
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #EFEFF4;
+    border-radius: 7px;
+
+}
+
+.eye{
+    width: 60%;
+    aspect-ratio: auto;
+}
+.passwordContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+    background-color: #EFEFF4;
+    border-radius: 7px;
+}

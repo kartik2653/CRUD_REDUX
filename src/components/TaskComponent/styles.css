@@ -1,0 +1,49 @@
+.taskContainer{
+    padding: 10px 15px;
+    margin-top: 25px;
+    border-radius: 7px;
+    background: #e0e0e0;
+    box-shadow:  7px 7px 7px #ccc,
+                 -7px -7px 7px #ccc;
+}
+
+.titleContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconsContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.iconContainer{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.completeIcon{
+    width: 25px;
+    height: 25px;
+    cursor: pointer; 
+}
+
+.title{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.description{
+    text-align: left;
+    margin-top: 10px;
+    font-size: 17px;
+}
+.titleTextContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}

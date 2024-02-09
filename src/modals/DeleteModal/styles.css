@@ -1,0 +1,46 @@
+.deleteModal{
+    width: 100%;
+    height: 100%;
+    z-index: 12px;
+}
+
+.deleteModalOuterContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.deleteLogoContainer{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+.modalContainer{
+    padding: 15px 20px;
+    width: 400px;
+    background-color: #10a6d0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 12px;
+    border-radius: 50px;
+    box-shadow:  20px 20px 60px #a1a1a1,
+             -20px -20px 60px #a1a1a1;
+    
+}
+
+.deleteLogo{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}

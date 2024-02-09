@@ -1,0 +1,10 @@
+input{
+    display:block;
+    width:100%;
+    padding:15px 10px;
+    font-size:15px;
+    border:none;
+    outline:none;
+    background-color:#EFEFF4  ;
+    border-radius: 7px;
+}

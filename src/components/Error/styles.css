@@ -1,0 +1,11 @@
+.errorContainer{
+    position:absolute;
+    top: 0;
+    left: auto;
+    background-color:#FF5252;
+    color:#fff;
+    padding:20px 15px;
+    border-radius: 7px;
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+}

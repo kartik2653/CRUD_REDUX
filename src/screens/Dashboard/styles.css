@@ -1,0 +1,42 @@
+.dashboardOuterContainer{
+  margin: auto;
+  padding: 15px 30px;
+  margin: auto;
+  background-color: #fff;
+}
+
+.container{
+    font-family: 'Raleway';
+    margin: auto;
+    width: 95%;
+    height:100%;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addTaskButton{
+    cursor: pointer;
+    background-color: var(--buttonBg);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    box-shadow:  14px 14px 28px #bebebe,
+                 -14px -14px 28px #ffffff;
+}
+
+.errorHandler{
+   
+        width:100%;
+        position:absolute;
+        top:0px;
+        left:0%;
+        z-index :12px;
+        
+
+}

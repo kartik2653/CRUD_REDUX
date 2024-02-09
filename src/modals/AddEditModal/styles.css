@@ -1,0 +1,55 @@
+.addEditOuterContainer{
+ position: absolute;
+ top: 0px;
+ left: 0px;
+ width: 100%;
+ height: 100%;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ 
+}
+
+.addEditContainer{
+    background-color: #fff;
+    display: flex;
+    width: 35%;
+    flex-direction: column;
+    align-items:flex-start;
+    margin: auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+    min-width: 250px;
+}
+
+.logoContainer{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 5px solid #77B2FF ;
+    padding: 3px;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+textarea{
+    width:100%;
+    padding:15px 10px;
+    font-size:15px;
+    border:none;
+    outline:none;
+    background-color:#EFEFF4;
+    border-radius: 7px;
+    max-height:250px;
+    line-height:30px;
+}
+
+.datePickerContainer{
+    width: 100%;
+    background-color:#EFEFF4;
+    border-radius:7px;
+    cursor:text,
+}
